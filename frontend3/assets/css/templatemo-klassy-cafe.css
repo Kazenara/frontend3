@@ -82,7 +82,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: rgb(197, 169, 189);
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -115,17 +115,17 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: rgb(226, 209, 221);
   font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
-  background: #fb5849;
+  background: #50687c;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #fb5849;
+  background: #50687c;
   color: #fff;
 }
 
@@ -147,7 +147,7 @@ body {
 
 .main-white-button a {
   font-size: 13px;
-  color: #fb5849;
+  color: #50687c;
   background-color: #fff;
   padding: 12px 25px;
   display: inline-block;
@@ -174,7 +174,7 @@ body {
 .section-heading h6 {
   position: relative;
   font-size: 15px;
-  color: #fb5849;
+  color: #50687c;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -188,7 +188,7 @@ body {
   position: absolute;
   left: 0;
   top: 8px;
-  background-color: #fb5849;
+  background-color: #50687c;
 }
 
 .section-heading h2 {
@@ -208,7 +208,7 @@ header
 */
 
 .background-header {
-  background-color: #fff;
+  background-color: rgb(230, 210, 224);
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -223,15 +223,15 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fb5849!important;
+  color: rgb(243, 219, 236)!important;
 }
 
 .background-header .nav li a.active {
-  color: #fb5849!important;
+  color: rgb(240, 212, 232)!important;
 }
 
 .header-area {
-  background-color: #fff;
+  background-color: rgb(197, 169, 189);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -315,12 +315,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fb5849!important;
+  color: #50687c!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fb5849!important;
+  color: #50687c!important;
   opacity: 1;
 }
 
@@ -381,8 +381,8 @@ header
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
-  background: #fff;
-  color: #fb5849!important;
+  background: rgb(197, 169, 189);
+  color: #50687c!important;
   padding-left: 25px;
 }
 
@@ -522,7 +522,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fb5849;
+  color: #50687c;
 }
 
 @media (max-width: 1200px) {
@@ -541,7 +541,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fb5849!important;
+    color: #50687c!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -599,7 +599,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fb5849!important;
+    color: #50687c!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -624,7 +624,7 @@ header
     height: auto !important;
   }
   .header-area .main-nav .nav li.submenu:after {
-    color: #3B566E;
+    color: #b2a8c9;
     right: 25px;
     font-size: 14px;
     top: 15px;
@@ -657,7 +657,7 @@ banner
 }
 
 #top .left-content {
-  background-image: url(../images/top-left-bg.jpg);
+  background-image: url(../images/left.jpeg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -675,7 +675,7 @@ banner
 
 #top .left-content h4 {
   font-family: 'Dancing Script', cursive;
-  color: #fff;
+  color: rgb(17, 17, 17);
   font-size: 54px;
   font-weight: 700;
 }
@@ -684,7 +684,7 @@ banner
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #fff;
+  color: rgb(17, 17, 17);
   letter-spacing: 3px;
   margin-top: 5px;
 }
@@ -760,7 +760,7 @@ banner
   right:30px;
   width: 50px;
   height: 50px;
-  background-color: #fb5849;
+  background-color: #50687c;
   border:0 none;
   line-height: 44px;
   border-radius: 50%;
@@ -789,7 +789,7 @@ banner
   left:30px;
   width: 50px;
   height: 50px;
-  background-color: #fb5849;
+  background-color: #50687c;
   border:0 none;
   line-height: 44px;
   border-radius: 50%;
@@ -884,7 +884,7 @@ about
   display: inline-block;
   line-height: 70px;
   text-align: center;
-  background-color: #fb5849;
+  background-color: #50687c;
   color: #fff;
   border-radius: 50%;
   transform: translate(-35px, -35px);
@@ -904,7 +904,7 @@ menu
 
 #menu {
   margin-top: 120px;
-  background-color: #fffafa;
+  background-color: rgb(197, 169, 189);
   padding: 120px 0px;
 }
 
@@ -941,8 +941,8 @@ menu
 .info {
   position: relative;
   width: 100%;
-  background-color: #fb5849;
-  border: 1px solid #fb5849;
+  background-color: #50687c;
+  border: 1px solid #50687c;
   transform: translateY(100%)
   translateY(120px)
   translateZ(0);
@@ -971,7 +971,7 @@ menu
   position: absolute;
   width: 70px;
   height: 70px;
-  background-color: #fb5849;
+  background-color: #50687c;
   font-size: 20px;
   font-weight: 700;
   color: #fff;
@@ -1015,7 +1015,7 @@ menu
 #menu .owl-nav .owl-prev:before {
   display: inline-block;
   font-family: 'FontAwesome';
-  color: #fb5849;
+  color: #50687c;
   font-size: 25px;
   font-weight: 700;
   content: '\f104';
@@ -1047,7 +1047,7 @@ menu
 #menu .owl-nav .owl-next:before {
   display: inline-block;
   font-family: 'FontAwesome';
-  color: #fb5849;
+  color: #50687c;
   font-size: 25px;
   font-weight: 700;
   content: '\f105';
@@ -1085,11 +1085,11 @@ chefs
 }
 
 #chefs .chef-item:hover {
-  border-color: #fb5849;
+  border-color: #50687c;
 }
 
 #chefs .chef-item:hover .down-content h4 {
-  color: #fb5849;
+  color: #50687c;
 }
 
 #chefs .chef-item .thumb {
@@ -1146,7 +1146,7 @@ chefs
 }
 
 #chefs .chef-item .thumb ul.social-icons li a:hover {
-  background-color: #fb5849;
+  background-color: #50687c;
 }
 
 #chefs .chef-item:hover .overlay {
@@ -1187,21 +1187,21 @@ reservation
 }
 
 #reservation .section-heading h6 {
-  color: #fff;
+  color: rgb(250, 246, 249);
 }
 
 #reservation .section-heading h2 {
-  color: #fff;
+  color: rgb(252, 249, 251);
   font-weight: 700;
 }
 
 #reservation .section-heading h6:before {
-  background-color: #fff;
+  background-color: rgb(253, 249, 252);
 }
 
 #reservation p {
-  color: #fff;
-  margin-bottom: 65px;
+  color: rgb(250, 249, 250)
+  margin-bottom : 65px;
 }
 
 #reservation {
@@ -1215,7 +1215,7 @@ reservation
 
 #reservation .phone,
 #reservation .message {
-  background-color: #fff;
+  background-color: rgb(236, 218, 231);
   border-radius: 5px;
   text-align: center;
   padding: 0px 0px 20px 0px;
@@ -1229,7 +1229,7 @@ reservation
   text-align: center;
   line-height: 70px;
   color: #fff;
-  background-color: #fb5849;
+  background-color: #50687c;
   border-radius: 50%;
   font-size: 24px;
   margin-top: -35px;
@@ -1255,13 +1255,13 @@ reservation
 
 #reservation .phone span a:hover,
 #reservation .message span a:hover {
-  color: #fb5849;
+  color: #50687c;
 }
 
 #contact {
   margin-left: 30px;
   padding: 45px 30px;
-  background-color: #fff;
+  background-color: rgb(236, 218, 231);
   border-radius: 5px;
 }
 
@@ -1301,14 +1301,14 @@ reservation
 .contact-form input:focus,
 .contact-form textarea:focus,
 .contact-form select:focus {
-  border-color: #fb5849;
+  border-color: #50687c;
 }
 
 .contact-form button {
   margin-top: -10px;
   font-size: 13px;
   color: #fff;
-  background-color: #fb5849;
+  background-color: #50687c;
   padding: 12px 25px;
   width: 100%;
   box-shadow: none;
@@ -1389,7 +1389,7 @@ offers
   width: 100%;
   display: inline-block;
   font-size: 15px;
-  color: #2a2a2a;
+  color: #030303;
   font-weight: 600;
   transition: all 0.3s;
   text-align: center;
@@ -1400,11 +1400,11 @@ offers
   margin: 0 auto 15px auto;
 }
 #offers #tabs ul .ui-tabs-active a {
-  color: #fb5849;
+  color: #030303;
   position: relative;
 }
 #offers #tabs ul .ui-tabs-active span {
-  color: #1e1e1e;
+  color: #030303;
 }
 #offers .tabs-content {
   margin-top: 60px;
@@ -1450,7 +1450,7 @@ offers
   right: 0;
   width: 70px;
   height: 70px;
-  background-color: #fb5849;
+  background-color: #50687c;
   display: inline-block;
   text-align: center;
   line-height: 70px;
@@ -1470,18 +1470,18 @@ footer
 footer {
   margin-top: 60px;
   padding: 50px 0px;
-  background-color: #fb5849;
+  background-color: rgb(197, 169, 189);
 }
 
 footer .left-text-content p {
   margin-top: 5px;
-  color: #fff;
+  color: rgb(10, 10, 10);
   font-size: 14px;
   text-align: right;
 }
 
 footer .right-text-content p {
-  color: #fff;
+  color: rgb(10, 10, 10);
   font-size: 14px;
   margin-right: 15px;
   text-transform: uppercase;
@@ -1515,7 +1515,7 @@ footer .right-text-content ul li a {
   font-size: 20px;
   background-color: #fff;
   border-radius: 50%;
-  color: #fb5849;
+  color: #50687c;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
@@ -1592,7 +1592,7 @@ responsive
 
 #preloader {
   overflow: hidden;
-  background-color: #fb5849;
+  background-color: #50687c;
   left: 0;
   right: 0;
   top: 0;
