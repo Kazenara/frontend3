@@ -761,25 +761,24 @@ if (isset($_POST['submit-reservation'])) {
                             </div>
                             <div class="card-body">
                       <p class="mb-2"></p>
-                      <div class="container">
-   <div class="row">
-      <div class='col-sm-6'>
-         <div class="form-group">
-            <div class='input-group date' id='datetimepicker1'>
-               <input type='text' class="form-control" />
-               <span class="input-group-addon">
-               <span class="glyphicon glyphicon-calendar"></span>
-               </span>
-            </div>
-         </div>
-      </div>
-      <script type="text/javascript">
-         $(function () {
-             $('#datetimepicker1').datetimepicker();
-         });
-      </script>
-   </div>
-</div>
+                      <div class="form-row">
+                        <div class="form-group col-md-8">
+                          <label for="date-input1">Date</label>
+                          <div class="input-group">
+                            <input type="text" class="form-control drgpicker" id="date-input1" value="04/24/2020" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                              <div class="input-group-text" id="button-addon-date"><span class="fe fe-calendar fe-16"></span></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="time-input2">Time</label>
+                          <div class="input-group">
+                            <input type="text" class="form-control time-input" id="time-input2" placeholder="" aria-describedby="button-addon2">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                             <!-- <div class="col-md-6 col-sm-12">
                               <fieldset>
                                 <select value="time" name="time" id="time">
