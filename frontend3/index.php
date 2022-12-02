@@ -674,7 +674,7 @@ if (isset($_POST['submit-reservation'])) {
     </section>
     <!-- ***** Chefs Area Ends ***** -->
 
-    <!-- ***** Reservation Us Area Starts ***** -->
+   <!-- ***** Reservation Us Area Starts ***** -->
     <section class="section" id="reservation">
         <div class="container">
             <div class="row">
@@ -716,8 +716,7 @@ if (isset($_POST['submit-reservation'])) {
                             </div> -->
                             <div class="col-lg-6 col-sm-12">
                                 <fieldset>
-                                    <label>Name </label>
-                                  <input name="name" type="text" id="name" placeholder="Your Name" Required>
+                                  <input name="name" type="text" id="name" placeholder="Your Name*">
                                 </fieldset>
                               </div>
                             <!-- <div class="col-lg-6 col-sm-12">
@@ -727,8 +726,7 @@ if (isset($_POST['submit-reservation'])) {
                             </div> -->
                             <div class="col-lg-6 col-sm-12">
                                 <fieldset>
-                             <label>No Handphone </label>
-                              <input name="phone" type="text" id="phone" placeholder="Whatsapp Number" required>
+                                  <input name="phone" type="text" id="phone" placeholder="Phone Number*">
                               </fieldset>
                               </div>
                             <!-- <div class="col-lg-6 col-sm-12">
@@ -736,13 +734,13 @@ if (isset($_POST['submit-reservation'])) {
                                 <input name="time" type="text" id="time" placeholder="Time" required="">
                               </fieldset>
                             </div> -->
-                            <!-- <div class="col-md-6 col-sm-12">
-
-                        <input class="form-control" id="example-time" type="time" name="time" placeholder="Time">
-                      </div> -->
+                            <div class="col-lg-6 col-sm-12">
+                                <fieldset>
+                                  <input name="time" type="text" id="time" placeholder="Time">
+                                </fieldset>
+                              </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
-                                <label>Participant</label>
                                 <select value="number-guests" name="number-guests" id="number-guests">
                                     <option value="number-guests">Participants</option>
                                     <option name="1" id="1">1-10</option>
@@ -755,31 +753,23 @@ if (isset($_POST['submit-reservation'])) {
                                     <option name="8" id="8">< 80</option>
                                     <option name="9" id="9">< 90</option>
                                     <option name="10" id="10">< 100</option>
-                                    
+                                    <option name="11" id="11">< 200</option>
                                 </select>
                               </fieldset>
                             </div>
-                            <div class="card-body">
-                      <p class="mb-2"></p>
-                      <div class="form-row">
-                        <div class="form-group col-md-8">
-                          <label for="date-input1">Date</label>
-                          <div class="input-group">
-                            <input type="text" class="form-control drgpicker" id="date-input1" value="04/24/2020" aria-describedby="button-addon2">
-                            <div class="input-group-append">
-                              <div class="input-group-text" id="button-addon-date"><span class="fe fe-calendar fe-16"></span></div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-group col-md-4">
-                          <label for="time-input2">Time</label>
-                          <div class="input-group">
-                            <input type="text" class="form-control time-input" id="time-input2" placeholder="" aria-describedby="button-addon2">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                            <!-- <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+	
+	<div class="input-group">
+		<input type="text" class="form-control" id="datepicker" name="datepicker">
+		<div class="input-group-append">
+			<span class="input-group-text">
+				<i class="fa fa-calendar"></i>
+			</span>
+		</div>
+	</div>
+</div>
+<script>
+                            <div class="col-md-6 col-sm-12">
                               <fieldset>
                                 <select value="time" name="time" id="time">
                                     <option value="time">Booked for</option>
@@ -788,7 +778,7 @@ if (isset($_POST['submit-reservation'])) {
                                     <option name="Dinner" id="Dinner">Dinner</option>
                                 </select>
                               </fieldset>
-                            </div> -->
+                            </div>
                             <!-- <div class="col-lg-12">
                               <fieldset>
                                 <textarea name="message" rows="6" id="message" placeholder="NOTE" required=""></textarea>
@@ -796,16 +786,17 @@ if (isset($_POST['submit-reservation'])) {
                             </div> -->
                             <div class="col-lg-12">
                                 <fieldset>
-                                  <textarea name="message" rows="6" id="message" placeholder="NOTE" name="txt_note"></textarea>
+                                  <textarea name="message" rows="6" id="message" placeholder="NOTE"></textarea>
                                 </fieldset>
                               </div>
-                                <!-- <div class="col-lg-12">
-                                <fieldset>
-                                <a href="wa.me/6281230147253"><button class="main-button-icon">Send to our whatsapp</button>
-                                </fieldset>
-                                </div> -->
+                            <!-- <div class="col-lg-12">
+                              <fieldset>
+                               <a href="wa.me/6281230147253"><button class="main-button-icon">Send to our whatsapp</button>
+                              </fieldset>
+                            </div> -->
                             <div class="col-lg-12">
-                            <button class="btn mb-2 btn-primary" type="submit" name="submit_reservation">Reservation</button>                            </div>
+                                <a href=”https://web.whatsapp.com/send?phone=6281230147253&text=Hallo admin, ini saya coba kode wa"><button>whatsapp</button></a>
+                            </div>
                             
                           </div>
                         </form>
