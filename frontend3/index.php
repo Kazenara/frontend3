@@ -315,7 +315,7 @@ if (isset($_POST['submit-reservation'])) {
                                             <div class="left-list">
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-01.png" alt="">
+                                                        <img src="assets/images/tab-item-01.jpg" alt="">
                                                         <h4>Nasi Bakar</h4>
                                                         <p>Isian varian: Ayam, Tuna</p>
                                                         <div class="price">
@@ -325,7 +325,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-02.png" alt="">
+                                                        <img src="assets/images/tab-item-02.jpg" alt="">
                                                         <h4>Mie</h4>
                                                         <p>Varian: Mie goreng, mie kuah, mie nyemek. Bisa request tingkat kepedasan.</p>
                                                         <div class="price">
@@ -335,7 +335,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-03.png" alt="">
+                                                        <img src="assets/images/tab-item-03.jpg" alt="">
                                                         <h4>Nasi goreng</h4>
                                                         <p>Bisa request tingkat kepedesan.</p>
                                                         <div class="price">
@@ -351,7 +351,7 @@ if (isset($_POST['submit-reservation'])) {
                                             <div class="right-list">
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-04.png" alt="">
+                                                        <img src="assets/images/tab-item-04.jpg" alt="">
                                                         <h4>Bihun goreng</h4>
                                                         <p>Bisa request tingkat kepedesan.</p>
                                                         <div class="price">
@@ -361,7 +361,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-05.png" alt="">
+                                                        <img src="assets/images/tab-item-05.jpg" alt="">
                                                         <h4>Roti bakar 1 rasa</h4>
                                                         <p>Varian: Keju, Coklat, Blueberry, strawberry, nanas.</p>
                                                         <div class="price">
@@ -371,7 +371,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-06.png" alt="">
+                                                        <img src="assets/images/tab-item-05.jpg" alt="">
                                                         <h4>Roti bakar 2 rasa</h4>
                                                         <p>Varian: Keju, Coklat, Blueberry, strawberry, nanas.</p>
                                                         <div class="price">
@@ -391,7 +391,7 @@ if (isset($_POST['submit-reservation'])) {
                                             <div class="left-list">
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-04.png" alt="">
+                                                        <img src="assets/images/snack-item-01.jpg" alt="">
                                                         <h4>Sate 1,5k</h4>
                                                         <p>Varian: sate tempe bacem dan tahu bacem.</p>
                                                         <div class="price">
@@ -401,7 +401,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-05.png" alt="">
+                                                        <img src="assets/images/snack-item-01.jpg" alt="">
                                                         <h4>Sate 2k</h4>
                                                         <p>Varian: Sate tempura, bintang, siomay, telur puyuh, ampela, usus, dan pentol</p>
                                                         <div class="price">
@@ -411,7 +411,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-06.png" alt="">
+                                                        <img src="assets/images/snack-item-01.jpg" alt="">
                                                         <h4>Sate 2,5k</h4>
                                                         <p>Varian: sate sosis ayam dan sapi. Sate scallop, dan sate otak-otak.</p>
                                                         <div class="price">
@@ -427,7 +427,7 @@ if (isset($_POST['submit-reservation'])) {
                                             <div class="right-list">
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-01.png" alt="">
+                                                        <img src="assets/images/snack-item-01.jpg" alt="">
                                                         <h4>Sate 3,5k</h4>
                                                         <p>Varian: Sate dumpling keju, ayam, dan bolognese.</p>
                                                         <div class="price">
@@ -437,7 +437,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-02.png" alt="">
+                                                        <img src="assets/images/snack-item-02.jpg" alt="">
                                                         <h4>Tahu crispy</h4>
                                                         <p>Disajikan dengan saus sambal.</p>
                                                         <div class="price">
@@ -447,7 +447,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-03.png" alt="">
+                                                        <img src="assets/images/snack-item-03.jpg" alt="">
                                                         <h4>Kentang</h4>
                                                         <p>Disajikan dengan saus sambal dan mayonaise.</p>
                                                         <div class="price">
@@ -467,7 +467,7 @@ if (isset($_POST['submit-reservation'])) {
                                             <div class="left-list">
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-05.png" alt="">
+                                                        <img src="assets/images/drink-item-01.jpg" alt="">
                                                         <h4>Kopi hitam</h4>
                                                         <p>Bisa request tingkat kemanisan.</p>
                                                         <div class="price">
@@ -477,7 +477,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-03.png" alt="">
+                                                        <img src="assets/images/drink-item-04.jpg" alt="">
                                                         <h4>Kopi susu</h4>
                                                         <p>Bisa request tingkat kemanisan.</p>
                                                         <div class="price">
@@ -487,7 +487,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-02.png" alt="">
+                                                        <img src="assets/images/drink-item-03.jpg" alt="">
                                                         <h4>Wedang Jahe</h4>
                                                         <p>Bisa request tingkat kemanisan.</p>
                                                         <div class="price">
@@ -497,7 +497,7 @@ if (isset($_POST['submit-reservation'])) {
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="tab-item">
-                                                        <img src="assets/images/tab-item-02.png" alt="">
+                                                        <img src="assets/images/drink-item-02.jpg" alt="">
                                                         <h4>Minuman kemasan</h4>
                                                         <p>Varian: Nutrisari, beng-beng, chocolatos coklat/matcha, nutrisari susu, cappucino, teh tarik, milo, dan josua. Pilihan dingin atau panas.</p>
                                                         <div class="price">
