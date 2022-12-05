@@ -40,7 +40,6 @@ if (isset($_POST['submit-reservation'])) {
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
-    <link rel="stylesheet" href="css/daterangepicker.css">
 
     </head>
     
@@ -674,7 +673,7 @@ if (isset($_POST['submit-reservation'])) {
     </section>
     <!-- ***** Chefs Area Ends ***** -->
 
-   <!-- ***** Reservation Us Area Starts ***** -->
+    <!-- ***** Reservation Us Area Starts ***** -->
     <section class="section" id="reservation">
         <div class="container">
             <div class="row">
@@ -757,18 +756,16 @@ if (isset($_POST['submit-reservation'])) {
                                 </select>
                               </fieldset>
                             </div>
-                            <div class="form-group">
-	
-	<div class="input-group">
-		<input type="text" class="form-control" id="datepicker" name="datepicker">
-		<div class="input-group-append">
-			<span class="input-group-text">
-				<i class="fa fa-calendar"></i>
-			</span>
-		</div>
-	</div>
-</div>
-<script>
+                            <div class="col-lg-6">
+                                <div id="filterDate2">    
+                                  <div class="input-group date" data-date-format="dd/mm/yyyy">
+                                    <input  name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy">
+                                    <div class="input-group-addon" >
+                                      <span class="glyphicon glyphicon-th"></span>
+                                    </div>
+                                  </div>
+                                </div>   
+                            </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
                                 <select value="time" name="time" id="time">
