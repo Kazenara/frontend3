@@ -64,7 +64,7 @@ if (isset($_POST['submit-reservation'])) {
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <img src="assets/images/revisi logo no bg 2.png " align="klassy cafe html template">
+                            <img src="assets/images/revisi logo no bg 2.png " chefs>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -621,11 +621,11 @@ if (isset($_POST['submit-reservation'])) {
                     <div class="chef-item">
                         <div class="thumb">
                             <div class="overlay"></div>
-                            <ul class="social-icons">
+                            <!--<ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="https://www.instagram.com/__gustav.g"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
+                            </ul>-->
                             <img src="assets/images/gustavito.jpeg" alt="Chef #1">
                         </div>
                         <div class="down-content">
@@ -638,11 +638,11 @@ if (isset($_POST['submit-reservation'])) {
                     <div class="chef-item">
                         <div class="thumb">
                             <div class="overlay"></div>
-                            <ul class="social-icons">
+                            <!--<ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="https://www.instagram.com/gesthi.rh"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
+                            </ul>-->
                             <img src="assets/images/gesti.jpeg" alt="Chef #2">
                         </div>
                         <div class="down-content">
@@ -655,11 +655,11 @@ if (isset($_POST['submit-reservation'])) {
                     <div class="chef-item">
                         <div class="thumb">
                             <div class="overlay"></div>
-                            <ul class="social-icons">
+                            <!--<ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="https://www.instagram.com/naufalnmf_22"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
+                            </ul>-->
                             <img src="assets/images/naufal.jpeg" alt="Chef #3">
                         </div>
                         <div class="down-content">
