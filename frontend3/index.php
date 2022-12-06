@@ -35,7 +35,7 @@ if (isset($_POST['submit-reservation'])) {
 
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
-    <link rel="stylesheet" href="assets/css/templatemo-klassy-cafe.css">
+    <link rel="stylesheet" href="assets/css/lingkar_angkringan.css">
 
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
@@ -317,7 +317,7 @@ if (isset($_POST['submit-reservation'])) {
                                                     <div class="tab-item">
                                                         <img src="assets/images/tab-item-01.jpg" alt="">
                                                         <h4>Nasi Bakar</h4>
-                                                        <p>Isian varian: Ayam, Tuna</p>
+                                                        <p>Isian varian: Ayam, Tuna <br> <br> </p>
                                                         <div class="price">
                                                             <h6>6k</h6>
                                                         </div>
@@ -337,7 +337,7 @@ if (isset($_POST['submit-reservation'])) {
                                                     <div class="tab-item">
                                                         <img src="assets/images/tab-item-03.jpg" alt="">
                                                         <h4>Nasi goreng</h4>
-                                                        <p>Bisa request tingkat kepedesan.</p>
+                                                        <p>Bisa request tingkat kepedesan. <br> </p>
                                                         <div class="price">
                                                             <h6>10k</h6>
                                                         </div>
@@ -353,7 +353,7 @@ if (isset($_POST['submit-reservation'])) {
                                                     <div class="tab-item">
                                                         <img src="assets/images/tab-item-04.jpg" alt="">
                                                         <h4>Bihun goreng</h4>
-                                                        <p>Bisa request tingkat kepedesan.</p>
+                                                        <p>Bisa request tingkatkepedesan. <br><br> </p>
                                                         <div class="price">
                                                             <h6>10k</h6>
                                                         </div>
