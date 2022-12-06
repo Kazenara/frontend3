@@ -654,8 +654,8 @@ if (isset($_POST['submit-reservation'])) {
                 <div class="col-lg-4">
                     <div class="chef-item">
                         <div class="thumb">
-                            <div class="overlay"></div>
-                            <!--<ul class="social-icons">
+                            <!--<div class="overlay"></div>
+                            <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="https://www.instagram.com/naufalnmf_22"><i class="fa fa-instagram"></i></a></li>
